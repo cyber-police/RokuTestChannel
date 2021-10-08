@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="DetailsScreen" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/screens/DetailsScreen.brs"/>
+
+    <interface>
+      <field id="content" type="node" alwaysNotify="true" onChange="onUpdateContent" />
+      <field id="back" type="boolean" alwaysNotify="true" />
+      <field id="playButtonSelected" type="boolean" alwaysNotify="true" />
+    </interface>
+
+    <children>
+      <Poster id="itemPoster" />
+
+      <LayoutGroup id="itemsGroup">
+        <Label id="titleLabel" />
+        <Label id="description" />
+        <Label id="titleYear" />
+
+        <DetailsPlayButton id="detailsPlayButton" />
+      </LayoutGroup>
+    </children>
+
+</component>

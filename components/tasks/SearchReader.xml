@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name = "SearchReader" extends = "Task" >
+    <script type="text/brightscript" uri="pkg:/components/tasks/SearchReader.brs"/>
+
+    <interface>
+        <field id="data" type="assocarray" />
+        <field id="content" type="assocarray" />
+    </interface>
+</component>

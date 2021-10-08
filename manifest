@@ -1,0 +1,10 @@
+title=Test Channel
+
+major_version=1
+minor_version=0
+build_version=0
+
+splash_color=#000000
+
+requires_widevine_drm=1
+requires_widevine_version=1.0

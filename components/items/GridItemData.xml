@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name = "GridItemData" extends = "ContentNode" >
+
+  <script type="text/brightscript" uri="pkg:/components/items/GridItem.brs"/>
+
+    <interface>
+      <field id="labelTitle" type="string" />
+      <field id="labelYear" type="string" />
+      <field id="posterUrl" type="string" />
+      <field id="id" type="string" />
+      <field id="description" type="string" />
+    </interface>
+</component>

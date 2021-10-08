@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name = "AppModel" extends = "Rectangle" >
+    <interface>
+      <field id = "appConfig" type = "assocarray" />
+      <field id = "assets" type = "node" />
+      <field id = "apiToken" type = "string" />
+      <field id = "activeItem" type = "integer" />
+    </interface>
+
+</component>

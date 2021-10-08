@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="DetailsPlayButton" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/buttons/DetailsPlayButton.brs"/>
+
+    <children>
+        <Rectangle id="background" />
+        <Label id="buttonText" />
+    </children>
+
+</component>

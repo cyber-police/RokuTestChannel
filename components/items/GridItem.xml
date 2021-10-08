@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name = "GridItem" extends = "Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/items/GridItem.brs"/>
+
+    <interface>
+      <field id="itemContent" type="node" onChange="itemContentChanged"/>
+    </interface>
+
+    <children>
+      <LayoutGroup id="itemGroup" >
+        <Poster id="itemImage" />
+
+        <LayoutGroup id="textGroup" >
+            <Label id="itemTitle" />
+            <Label id="itemYear" />
+        </LayoutGroup>
+    </LayoutGroup>
+    </children>
+
+</component>

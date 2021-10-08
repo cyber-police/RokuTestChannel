@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="SearchFilterButton" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/buttons/SearchFilterButton.brs"/>
+
+    <interface>
+      <field id="buttonName" type="string" onChange="onButtonName"/>
+    </interface>
+
+    <children>
+        <Rectangle id="background" />
+        <Label id="buttonText" />
+    </children>
+
+</component>

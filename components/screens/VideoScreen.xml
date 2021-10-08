@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="VideoScreen" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/screens/VideoScreen.brs"/>
+
+    <interface>
+      <field id="content" type="assocarray" alwaysNotify="true" onChange="onUpdateContent" />
+
+      <field id="back" type="boolean" alwaysNotify="true" />
+    </interface>
+
+    <children>
+      <Video id="video" />
+    </children>
+
+</component>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="SearchScreen" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/screens/SearchScreen.brs"/>
+
+    <interface>
+      <field id="content" type="assocarray" alwaysNotify="true" onChange="onUpdateContent" />
+      <field id="itemSelected" type="int" alwaysNotify="true" />
+      <field id="back" type="boolean" alwaysNotify="true" />
+      <field id="searchQuery" type="string" alwaysNotify="true" />
+
+      <field id="destroy" type="boolean" alwaysNotify="true" onChange="destroyView" />
+    </interface>
+
+    <children>
+      <LayoutGroup id="buttonsGroup" />
+      <miniKeyboard id="searchKeyboard" />
+      <Group id="gridGroup"/>
+    </children>
+
+</component>

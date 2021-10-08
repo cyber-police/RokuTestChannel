@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="HomeScreen" extends="Group" >
+
+  <script type="text/brightscript" uri="pkg:/components/screens/HomeScreen.brs"/>
+
+    <interface>
+      <field id="content" type="node" alwaysNotify="true" onChange="onUpdateContent" />
+      <field id="itemSelected" type="int" alwaysNotify="true" />
+      <field id="openSearch" type="boolean" alwaysNotify="true" />
+
+      <field id="destroy" type="boolean" alwaysNotify="true" onChange="destroyView" />
+    </interface>
+
+    <children>
+      <Label id="searchInstruction" />
+      <MarkupGrid id="grid" />
+    </children>
+
+</component>
